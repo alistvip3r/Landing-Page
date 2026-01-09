@@ -100,6 +100,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    margin-bottom: 20px;
 }
 
 .image {
@@ -107,4 +108,12 @@ h1 {
     background-color: grey;
     height: 200px;
     width: 600px;
+}
+
+button {
+    border-radius: 6px;
+    background: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 24px; 
 }
