@@ -63,17 +63,48 @@ footer {
 
 .one {
     background: #1f2937;
-    padding: 50px 150px;
+    padding: 0 100px;
     color: white;
 }
 
 .hero-logo {
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 ul {
     list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    gap: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.web p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.image {
+    border: 1px solid #1f2937;
+    background-color: grey;
+    height: 200px;
+    width: 600px;
 }
