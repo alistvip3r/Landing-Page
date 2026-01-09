@@ -35,3 +35,45 @@ footer {
     font-weight: 800;
     text-align: right;
 }
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 36px;
+    text-align: center;
+} 
+
+.box img {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.two {
+    padding: 50px 150px;
+}
+
+.one {
+    background: #1f2937;
+    padding: 50px 150px;
+    color: white;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
